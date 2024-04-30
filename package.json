@@ -1,0 +1,22 @@
+{
+  "name": "project-dicoding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js",
+    "start-dev": "nodemon api.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9"
+  },
+  "devDependencies": {
+    "eslint": "^9.1.1",
+    "nodemon": "^3.1.0"
+  }
+}
